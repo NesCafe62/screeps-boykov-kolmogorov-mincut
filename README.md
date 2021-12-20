@@ -1,4 +1,4 @@
-JavaScript implementation of Boykov-Kolmogorov maxflow mincut algorythm.
+JavaScript implementation of Boykov-Kolmogorov maxflow mincut algorythm on a uniform grid. It uses one dimentional Uint8Array-s for visited edges representation, with packed all edges of tile into a single value (direction flags).
 
 # Installation
 
