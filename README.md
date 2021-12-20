@@ -75,7 +75,7 @@ room.find(FIND_MY_SPAWNS).forEach(
 	spawn => sources.push(spawn.pos.x, spawn.pos.y)
 );
 
-// example of adding tiles for mining containers and near controller (you should not set values for unpathable tiles)
+// example of adding tiles for mining containers and around controller (you should not set values for unpathable tiles)
 // this code uses custom functions RoomPosition.lookInRange and Utils.getFreeSpots, so just as idea how to populate sources coords
 /* room.find(FIND_SOURCES).forEach(source => {
 	let item = source.pos.lookInRange(LOOK_STRUCTURES, 1)
