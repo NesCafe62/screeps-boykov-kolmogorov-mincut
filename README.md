@@ -1,4 +1,4 @@
-JavaScript implementation of Boykov Kolmogorov maxflow mincut alorythm
+JavaScript implementation of Boykov-Kolmogorov maxflow mincut algorythm.
 
 # Installation
 
