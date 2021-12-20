@@ -502,8 +502,9 @@ class MinCut {
 	}
 
 }
+module.exports = MinCut;
 
-// comment these lines to disable registering MinCut class and constants globally
+// comment this line to disable registering MinCut class globally
 global.MinCut = MinCut;
 
 global.MINCUT_FREE = LABEL_FREE;
