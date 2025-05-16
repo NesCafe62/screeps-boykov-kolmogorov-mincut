@@ -71,7 +71,6 @@ class MinCut {
 				}
 			}
 		}
-		this.originalCapacity = new Uint8Array(this.capacity);
 
 		for (let i = 0; i < sources.length; i += 2) {
 			const x = sources[i];
