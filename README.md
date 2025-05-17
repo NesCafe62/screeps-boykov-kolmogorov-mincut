@@ -89,7 +89,10 @@ Utils.getFreeSpots(room.controller.pos).forEach(pos => {
 	sources.push(pos.x, pos.y);
 }); */
 
-minCut = MinCut.create(terrain, sources, {extendSources: 3});
+const minCut = MinCut.create(terrain, sources, {extendSources: 3});
+// run minCut
+const maxFlow = minCut.run();
+// ... minCut.getLabel(x, y) for results
 ```
 
 ## MinCut(isPathableCallback, width, height, sources = [], sinks = [])
